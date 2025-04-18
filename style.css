@@ -1,0 +1,145 @@
+:root {
+  --color1: #f0287c;
+  --color2: #f5963d;
+  --text-dark: #c7c7d6;
+  --text-light: #f6f7fc;
+  --background: #e8ebf7;
+  --error: #e61414;
+  --shadow: 240, 40, 120;
+}
+
+#app {
+  background-color: var(--background);
+  margin: auto;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hello {
+  text-align: center;
+  margin-bottom: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#register-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background: linear-gradient(to left, var(--color2), var(--color1) 75%);
+  align-content: center;
+  vertical-align: middle;
+  color: var(--text-light);
+  border: none;
+}
+
+#register-button:hover {
+  box-shadow: 0 0 10px rgba(240, 40, 120, 0.5);
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: row;
+  width: 1024px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  vertical-align: middle;
+  box-shadow: 0 0 20px rgba(240, 40, 120, 0.2);
+  border-radius: 0 64px;
+  overflow: hidden;
+}
+
+.bottone {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background: linear-gradient(to left, var(--color2), var(--color1) 75%);
+  align-content: center;
+  vertical-align: middle;
+  color: var(--text-light);
+  border: none;
+}
+
+.left-display {
+  color: var(--text-light);
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  background: linear-gradient(var(--color2), var(--color1) 75%);
+  border-radius: 0px 0px 0px 64px;
+  padding: 64px;
+  flex: 1;
+}
+
+.right-display {
+  display: flex;
+  border-radius: 0px 64px 0px 0px;
+  padding: 64px;
+  flex: 1.5;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.input-text {
+  display: flex;
+  border: 1.5px solid #f0287c;
+  border-radius: 20px;
+  height: 30px;
+  width: 460px;
+  padding-left: 14px;
+  margin-bottom: 10px;
+}
+
+.input-text:focus {
+  box-shadow: 0 0 10px rgba(240, 40, 120, 0.2);
+  outline: none;
+}
+
+.fieldlabel-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.input-product {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fieldlabel-product {
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-styling {
+  flex-grow: 1;
+  text-align: right;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-div {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 24px;
+}
+
+.product-div:hover {
+  box-shadow: 0 0 16px rgba(240, 40, 120, 0.1);
+  background-color: rgba(240, 40, 124, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
