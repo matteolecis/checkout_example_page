@@ -1,3 +1,4 @@
-# checkout_example_page
+# Client-Side Checkout Page
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/matteolecis/checkout_example_page)
+This is a personal project.
+It's a dynamic, client-side checkout page implemented in vanilla JavaScript. It allows users to register by filling out personal data, selecting products, and submitting the form. Additionally, it features a real-time product fetch via Promises using the fetch API.
